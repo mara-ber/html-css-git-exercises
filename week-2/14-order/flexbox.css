@@ -16,10 +16,6 @@
   order: 1;
 }
 
-.countries--third {
-  order: inherit;
-}
-
 .countries--third .country--brazil {
   order: 2;
 }
