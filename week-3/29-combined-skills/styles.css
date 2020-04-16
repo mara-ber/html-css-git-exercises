@@ -1,1 +1,38 @@
 /* Add your own CSS code below */
+span.in_red {
+  color: #c85308;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.site-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-article {
+  max-width: 50em;
+  align-self: center;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .views {
+    display: flex;
+    justify-content: space-around;
+  }
+}
