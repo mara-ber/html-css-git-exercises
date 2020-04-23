@@ -10,13 +10,9 @@
 }
 
 .countries--second {
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: flex-end;
   justify-content: center;
-}
-
-.countries--second .country--brazil {
-  order: 5;
 }
 
 .countries--third {
@@ -31,7 +27,7 @@
 
 .countries--fourth {
   flex-direction: column;
-  align-items: last baseline;
+  align-items: flex-end;
   justify-content: center;
 }
 
@@ -45,7 +41,7 @@
 
 .countries--fifth {
   flex-direction: column-reverse;
-  align-items: last baseline;
+  align-items: flex-end;
   justify-content: space-around;
 }
 
