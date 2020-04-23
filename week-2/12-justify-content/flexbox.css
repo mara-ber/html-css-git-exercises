@@ -9,7 +9,7 @@
 /* Add your own CSS code below */
 .countries--first {
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .countries--second {
@@ -19,7 +19,7 @@
 
 .countries--third {
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .countries--fourth {
