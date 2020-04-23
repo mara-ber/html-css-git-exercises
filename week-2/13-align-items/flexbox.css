@@ -15,7 +15,7 @@
 
 .countries--third {
   flex-direction: column;
-  align-items: last baseline;
+  align-items: flex-end;
 }
 
 .countries--fourth {
